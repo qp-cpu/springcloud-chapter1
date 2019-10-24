@@ -62,5 +62,6 @@
     <modules>
         <module>microservice-api</module>
         <module>microservice-provicer-dept-8001</module>
+        <module>microservice-consumer-dept-80</module>
     </modules>
 </project>
