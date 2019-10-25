@@ -10,6 +10,7 @@
         <module name="microserviceconsumerdept80" />
         <module name="microserviceprovicerdept8001" />
         <module name="microserviceapi" />
+        <module name="microserviceeureka7001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
