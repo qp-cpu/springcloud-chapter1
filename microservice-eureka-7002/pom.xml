@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>microservice-eureka-7001</artifactId>
+    <artifactId>microservice-eureka-7002</artifactId>
 
     <dependencies>
         <dependency>
@@ -30,6 +30,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>springloaded</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>

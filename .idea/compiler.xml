@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microserviceprovicerdept8001" />
         <module name="microservice-provicer-dept-8001" />
+        <module name="microserviceeureka7003" />
         <module name="microservice-consumer-dept-80" />
         <module name="microserviceeureka7001" />
         <module name="microserviceconsumerdept80" />
         <module name="microserviceapi" />
+        <module name="microserviceeureka7002" />
         <module name="microservice-eureka-7001" />
         <module name="microservice-api" />
       </profile>
