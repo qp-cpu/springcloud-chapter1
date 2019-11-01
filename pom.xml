@@ -96,5 +96,7 @@
         <module>microservice-eureka-7001</module>
         <module>microservice-eureka-7002</module>
         <module>microservice-eureka-7003</module>
+        <module>microservice-provicer-dept-8002</module>
+        <module>microservice-provicer-dept-8003</module>
     </modules>
 </project>
