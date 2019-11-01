@@ -98,5 +98,6 @@
         <module>microservice-eureka-7003</module>
         <module>microservice-provicer-dept-8002</module>
         <module>microservice-provicer-dept-8003</module>
+        <module>microservice-consumer-dept-feign</module>
     </modules>
 </project>

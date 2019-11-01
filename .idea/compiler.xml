@@ -10,6 +10,7 @@
         <module name="microserviceprovicerdept8002" />
         <module name="microserviceprovicerdept8001" />
         <module name="microservice-provicer-dept-8001" />
+        <module name="microserviceconsumerdeptfeign" />
         <module name="microserviceeureka7003" />
         <module name="microserviceeureka7002" />
         <module name="microserviceeureka7001" />
