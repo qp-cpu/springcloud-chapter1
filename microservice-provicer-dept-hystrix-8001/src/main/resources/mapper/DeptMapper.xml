@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.springcloud.dao.Deptdao">
+
+
+    <insert id="addDept" parameterType="com.atguigu.entity.Deptentity">
+        insert into dept3(dname,db_source) values (#{dname},DATABASE())
+    </insert>
+
+    <select id="findByid" parameterType="integer" resultType="com.atguigu.entity.Deptentity">
+        select * from dept3 where deptno=#{id}
+    </select>
+    <select id="findAll" resultType="com.atguigu.entity.Deptentity">
+        select * from dept3
+    </select>
+
+</mapper>

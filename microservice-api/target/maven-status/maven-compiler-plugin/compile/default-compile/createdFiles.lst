@@ -1,2 +1,4 @@
 com\atguigu\service\DeptClientService.class
 com\atguigu\entity\Deptentity.class
+com\atguigu\service\DeptClientServiceFallbackFactory$1.class
+com\atguigu\service\DeptClientServiceFallbackFactory.class

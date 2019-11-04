@@ -9,9 +9,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
-@FeignClient(value = "MICROSERVICE-PROVICER-DEPT")
+@FeignClient(value = "MICROSERVICE-PROVICER-DEPT",fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
-
     @PostMapping("/dept/add")
     public boolean addDept(Deptentity deptentity);
     @GetMapping("/dept/findByid/{id}")

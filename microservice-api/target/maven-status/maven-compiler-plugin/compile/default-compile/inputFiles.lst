@@ -1,2 +1,3 @@
 E:\springcloud\springcloud-chapter1\microservice-api\src\main\java\com\atguigu\service\DeptClientService.java
+E:\springcloud\springcloud-chapter1\microservice-api\src\main\java\com\atguigu\service\DeptClientServiceFallbackFactory.java
 E:\springcloud\springcloud-chapter1\microservice-api\src\main\java\com\atguigu\entity\Deptentity.java

@@ -19,21 +19,17 @@ public class DeptController_Consumer {
     public boolean add(@RequestBody Deptentity deptentity)
     {
         return  restTemplate.postForObject(REST_URL_PREFIX+"/dept/add",deptentity,Boolean.class);
-
     }
     @GetMapping("/consumer/dept/findByid/{id}")
     public Deptentity findByid(@PathVariable("id") Integer id)
     {
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/findByid/"+id,Deptentity.class);
     }
-
     @GetMapping("/consumer/dept/findAll")
     public List<Deptentity> findAll()
     {
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/findAll",List.class);
     }
-
-
     @GetMapping("/consumer/dept/discovery")
     public Object discovery(){
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/discovery",Object.class);
