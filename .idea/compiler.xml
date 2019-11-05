@@ -14,6 +14,7 @@
         <module name="microserviceapi" />
         <module name="microservice-provicer-dept-8001" />
         <module name="microservice-consumer-dept-80" />
+        <module name="microserviceprovicerdepthystrixdashboard" />
         <module name="microservice-api" />
         <module name="microserviceconsumerdept80" />
         <module name="microserviceprovicerdepthystrix8001" />

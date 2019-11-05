@@ -32,5 +32,4 @@ public class DeptController_Consumer {
     {
         return this.service.findAll();
     }
-
 }

@@ -13,5 +13,4 @@
     <select id="findAll" resultType="com.atguigu.entity.Deptentity">
         select * from dept3
     </select>
-
 </mapper>
