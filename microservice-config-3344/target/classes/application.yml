@@ -1,0 +1,14 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: microservice-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/qp-cpu/microservice-config.git
+          search-paths: E:\springcloud\microservice-config
+          username: qp-cpu  #账号密码写真实的快一些我觉得，不使用也能访问有点慢
+          password: 123456

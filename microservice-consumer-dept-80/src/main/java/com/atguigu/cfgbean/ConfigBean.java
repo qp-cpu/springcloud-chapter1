@@ -19,5 +19,4 @@ public class ConfigBean {
     public IRule murule(){
         return new RandomRule();
     }
-
 }
